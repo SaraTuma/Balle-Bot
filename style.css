@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  height: 100%;
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.single-header{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+    padding: 1.7rem;
+}
+
+.single-header-img{
+    height: 7.6vh;
+}
+
+.single-header-nav{
+    display: flex;
+    gap: 1.6rem;
+}
+
+.single-header-nav a{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.first-secction{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+    border-top: 0.5px solid white;
+    
+}
+
+.first-secction-div{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+.first-secction-div-h1{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 7vh;
+    color: #FFF2E7;
+}
+
+.first-secction-div-h2{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 2.5vh;
+    color: #ECD6C4;
+}
+
+.first-secction-div-button{
+    background-color: #ECD6C4;
+    width: 10vw;
+    height: 6vh;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #2F2325;
+    cursor: pointer;
+    
+}
+
+.first-secction-div-button:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+
+
+.secund-section{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+    gap: 1.5rem;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.secund-section-h3{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 5vh;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2EF;
+    margin-bottom: 16px;
+}
+
+.secund-section-p{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 2vh;
+    color: #ECD6C4;
+}
+
+footer{
+    padding: 1rem;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.footer-img{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 900px)
+{
+    .single-header{
+       
+        padding: 0.5rem;
+    }
+    .single-header-img{
+        height: 6vh;
+    }
+    .single-header-nav a{
+        font-family: 'Sarala', sans-serif;
+        color: #FFF2E7;
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+    .first-secction{
+        padding: 1rem;
+    }
+    .first-secction-div{
+        gap: 1rem;
+    }
+    .first-secction-div-h1{
+        font-size: 3.5vh;
+        
+    }
+    .first-secction-div-h2{
+        font-size: 2vh;
+    }
+    .first-secction-div-button{
+        width: 20vw;
+        height: 5vh;
+        border-radius: 15px;
+        font-size: 1.2rem;
+    }
+    .first-secction-img{
+        height: 30vh;
+    }
+    .secund-section-h3{
+        padding-top: 3vh;
+        font-size: 2.3vh;
+        margin-bottom: 10px;
+    }
+    .secund-section{
+        padding: 1rem;
+    }
+    .secund-section-p{
+        font-size: 1.7vh;
+        color: #ECD6C4;
+    }
+    footer{
+        padding: 2rem;
+    }
+    .footer-img{
+        height: 2.5vh;
+    }
+}
