@@ -3,11 +3,11 @@ Studying flex box with a simple Rafaela Ballerine landing page!
 
 Imagens da landing page:
 
-![Imagem 1](https://github.com/SaraTuma/Balle-Bot/mobile1.png)
+![Imagem 1](./mobile1.png)
 
-![Imagem 2](https://github.com/SaraTuma/Balle-Bot/mobile2.png)
+![Imagem 2](./mobile2.png)
 
-![Imagem 1](https://github.com/SaraTuma/Balle-Bot/desktop.png)
+![Imagem 1](./desktop.png)
 
 
 
